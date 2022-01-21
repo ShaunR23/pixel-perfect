@@ -1,0 +1,5 @@
+* {
+    box-sizing: border-box;
+    overflow: break-word;
+    word-break: break-all;
+}
