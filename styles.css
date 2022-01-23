@@ -2,4 +2,161 @@
     box-sizing: border-box;
     overflow: break-word;
     word-break: break-all;
+    
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #F4F4F4;
+}
+
+#top-nav{
+display: flex;
+justify-content: space-between;
+min-height: 65px;
+background-color: white;
+border-bottom-style: solid;
+border-bottom-width: thin;
+border-bottom-color: #E7E7E7;
+
+}
+
+
+ #nav-left > ul{
+     
+    display: flex;
+   background-color: white;
+    font-size: 12px;
+    align-items: center;
+    padding-left: 150px; 
+}
+
+#nav-right > ul{
+    background-color: white;
+   display: flex;
+   justify-content: flex-end;
+   font-size: 12px;
+
+}
+
+ul{
+    padding: 0;
+    
+}
+
+li{
+    padding-top:20px;
+    padding-right: 25px;
+}
+
+#container{
+    display:flex ;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    min-height: 100vh;
+    flex: 1;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+article{
+    border-style: solid;
+    border-width: thin;
+    border-color: #E7E7E7;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+article > img{
+    max-width :750px;
+    height: auto;
+}
+
+#column1{
+    flex-direction: column;
+    flex: 1;
+   
+   padding-right: 50px;
+   
+   
+}
+
+.main-sections{
+    background-color: white;
+}
+article > h6{
+    text-align: center;
+}
+
+article > h2{
+    text-align: center;
+}
+
+article > footer{
+
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    
+}
+#column2{
+    flex-direction: column;
+    flex: 1;
+    padding-right: 50px;
+    
+}
+
+
+#about-me > img{
+    max-width: 160px;
+    border-radius: 50%;
+}
+
+
+#popular-post > img{
+    max-width: 200px;
+    height: auto;
+}
+
+#latest-post > img{
+    max-width:100px;
+    height: auto;
+}
+
+#instagram feed{
+    
+}
+
+#instagram-feed > img{
+
+    max-width:150px ;
+}
+
+
+p{
+    line-height: 1.5rem;
+}
+/* #bottom-pics{
+   
+    order: 5;
+    
+} */
+/* #bottom-pics > img{
+    max-width: 200px;
+}
+footer{
+    
+    flex-direction: row;
+    margin-top: 0;
+    width: 100%;
+    height: 20px
+} */
