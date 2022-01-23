@@ -10,6 +10,10 @@ body{
     background-color:  #F4F4F4;
 }
 
+header{
+    width: 1400px;
+}
+
 #top-nav{
 display: flex;
 justify-content: space-between;
@@ -29,20 +33,25 @@ border-bottom-color: #E7E7E7;
     font-size: 12px;
     align-items: center;
     padding-left: 150px; 
+    list-style: none;
 }
 
 #nav-right > ul{
     background-color: white;
+    align-items: center;
    display: flex;
    justify-content: flex-end;
    font-size: 12px;
+   padding: 0;
+   list-style: none;
 
 }
 
-ul{
-    padding: 0;
+#nav-right li{
+    padding-left: 5px;
     
 }
+
 
 li{
     padding-top:20px;
@@ -59,12 +68,6 @@ li{
     
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    justify-content: space-evenly;
-}
 
 article{
     border-style: solid;
@@ -118,6 +121,13 @@ article > h6{
     line-height: 55px;
 }
 
+.main-sections ul{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    width: 140px;
+    justify-content: space-between;
+}
 
 
 button{
@@ -125,14 +135,17 @@ button{
     display: block;
     margin-top: 10px;
     padding: 10px 17px;
-    
-    
     font-size: 12px;
     color: #CA5B3C;
     background-color: white;
     border-radius: 1px;
     border-color: #CA5B3C;
     
+}
+
+button:hover{
+color: white;
+background-color:#CA5B3C ;
 }
 #column2{
     flex-direction: column;
@@ -174,6 +187,20 @@ img[src*='shaun']{
     font-size: 14px;
     line-height: 1.5em;
 }
+
+#about-me ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+/* #about-me li{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    
+} */
 #popular-post{
     margin-top: 100px;
     padding-bottom: 20px;
@@ -191,6 +218,7 @@ img[src*='shaun']{
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #E7E7E7;
+   
 
 }
 #latest-post{
@@ -216,6 +244,10 @@ img[src*='shaun']{
     border-bottom-color: #E7E7E7;
 }
 
+#instagram-feed h3{
+    text-align: center;
+}
+
 #instagram-feed{
     margin-top: 100px;
     display: flex;
@@ -224,7 +256,7 @@ img[src*='shaun']{
 }
 
 #instagram-feed > img{
-    
+   
     max-width:150px ;
 }
 
