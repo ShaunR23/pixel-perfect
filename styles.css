@@ -10,10 +10,6 @@ body{
     background-color:  #F4F4F4;
 }
 
-header{
-    width: 1400px;
-}
-
 #top-nav{
 display: flex;
 justify-content: space-between;
@@ -80,14 +76,15 @@ article{
 .main-sections img{
     
     max-width :750px;
-    height: 470px;
+    height: 475px;
+    margin-bottom: 23px;
 }
 
 #column1{
     flex-direction: column;
     flex: 1;
    
-   padding-right: 50px;
+   padding-right: 30px;
    
    
 }
@@ -104,26 +101,37 @@ article > h6{
 
 .main-sections h2{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 33px;
     font-size: 20px;
+    line-height: 0em;
 }
 
 .main-sections nav{
     margin-left: auto;
-    
+}
+
+.main-sections p{
+    padding-left: 40px;
+    padding-right: 45px;
+    margin-top: 33px;
+    line-height: 1.5em;
 }
 
 .main-sections footer{
    display: flex;
-    margin-top: 50px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 0px;
     padding-left: 35px;
     border-top: 1px;
-    border-style: solid;
+    border-top-style: solid;
     border-color: #E7E7E7;
     font-size: 13px;
     font-style: italic;
     line-height: 55px;
+}
+
+.main-sections span, .main-sections time{
+    padding-top: 30px;
 }
 
 .main-sections ul{
@@ -154,7 +162,7 @@ background-color:#CA5B3C ;
 #column2{
     flex-direction: column;
     flex: 1;
-    padding-right: 50px;
+    margin-right: 50px;
     font-family: sans-serif;
     font-weight: 400;    
 }
@@ -162,6 +170,7 @@ background-color:#CA5B3C ;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
+
 #about-me{
    position: relative; 
    
@@ -181,11 +190,16 @@ img[src*='shaun']{
     border-style: solid;
     border-color: white;
 }
-
+#about-me{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
 #about-me h3{
     margin-top: 110px;
     
 }
+
 
 #about-me p{
     font-size: 14px;
@@ -196,7 +210,7 @@ img[src*='shaun']{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 /* #about-me li{
@@ -206,46 +220,72 @@ img[src*='shaun']{
     
 } */
 #popular-post{
-    margin-top: 100px;
+    display: inline-block;
+    
+    margin-top: 35px;
     padding-bottom: 20px;
+    padding-top: 10px;
+   
 }
 #popular-post > img{
+    text-align: center;
+    padding-left: 50px;
     width: 300px;
-    
     height:200px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+#popular-post h5{
+    padding-left: 25px;
+}
+
+
 #popular-post time{
+   padding-left: 25px;
     font-style: italic;
     font-size: 14px;
     padding-bottom: 16px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #E7E7E7;
-   
-
+    margin-bottom: 35px;
+    
+    
 }
 #latest-post{
-    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px; 
 }
-#latest-post > img{
-    
+#latest-post img{
+  
     max-width:100px;
     height: 75px;
 }
 
-#latest-post h5{
+.latest-post-headline{
+    
+}
+
+
+#latest-post h5 {
     font-size: 12px;
+    
+    
 }
 
 #latest-post time{
+   
     font-style: italic;
     font-size: 12px;
-    padding-top: 10px;
+    margin-right: 60px;
     padding-bottom: 16px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #E7E7E7;
+    
+    
 }
 
 #instagram-feed h3{
@@ -253,14 +293,13 @@ img[src*='shaun']{
 }
 
 #instagram-feed{
-    margin-top: 100px;
-    display: flex;
+    flex:50%;
+    margin-top: 35px;
     justify-content: space-around;
-    flex-wrap: wrap;
+    
 }
 
 #instagram-feed > img{
-   
     max-width:150px ;
 }
 
@@ -270,18 +309,20 @@ p{
 }
 #bottom-pics{
     display: flex;
-    width: 180px;
-    height: 190px;
+    
 }
 
 #bottom-pics > img{
     justify-content: center;
-    max-width: 200px;
+    border: 1px solid gray;
+    width: 180px;
+    height: 190px;
+    
 }
 #bottom{
     display: flex;
     justify-content: center;
-    background-color: black;
-    width: 100%;
-    height: 20px;
+    background-color: gray;
+    padding-top: 30px;
+    height: 70px;
 }
